@@ -14,6 +14,6 @@ $( "document" ).ready(function() {
             letters.shift();
             letters.push("ay");
         }
-        $(".output").text(letters.join(''));
+        $(".output").append(letters.join('') + '<br>');
     });
 });
